@@ -1,0 +1,17 @@
+{
+  "description": "Adds a one-line reminder at session start when the Personal OS is due for an update, at most once a day.",
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "startup",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"${CLAUDE_PLUGIN_ROOT}/scripts/pos.py\" nudge || true",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "claude-personal-os",
+  "description": "Personal OS for Claude Code: a skill extracted from how you actually work, kept current.",
+  "owner": {
+    "name": "Ishan William"
+  },
+  "plugins": [
+    {
+      "name": "claude-personal-os",
+      "description": "Builds and updates a Personal OS skill from your Claude Code session history.",
+      "source": "./",
+      "category": "productivity"
+    }
+  ]
+}

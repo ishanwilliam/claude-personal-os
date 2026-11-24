@@ -1,0 +1,10 @@
+{
+  "name": "claude-personal-os",
+  "version": "0.1.0",
+  "description": "Builds a Personal OS skill that teaches Claude how you work, extracted from your own Claude Code sessions, and keeps it current with evidence-backed updates you approve. Your prompts are extracted locally and sent to Claude for analysis, like any file Claude reads; nothing goes anywhere else.",
+  "author": {
+    "name": "Ishan William"
+  },
+  "license": "MIT",
+  "keywords": ["personal-os", "skills", "memory", "collaboration", "transcripts"]
+}

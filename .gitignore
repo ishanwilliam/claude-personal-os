@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.DS_Store
+# Generated output never belongs in this repo.
+work/
+draft/
+personal-os/
+state.json
+.claude/
